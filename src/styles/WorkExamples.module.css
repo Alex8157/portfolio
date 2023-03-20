@@ -1,0 +1,6 @@
+.workExamples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 2% 2% 0 2%;
+}

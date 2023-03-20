@@ -1,0 +1,17 @@
+.portfolio {
+  width: 100%;
+  background: linear-gradient(
+    rgb(12, 12, 12),
+    rgb(12, 12, 12),
+    rgb(232, 232, 232) 50%
+  );
+}
+
+.portfolioHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgb(12, 12, 12);
+  color: white;
+}
