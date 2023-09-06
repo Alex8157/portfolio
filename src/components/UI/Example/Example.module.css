@@ -91,13 +91,13 @@ figure img {
 }
 
 @media screen and (max-width: 820px) {
+  .text {
+    height: auto;
+  }
   .example {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .text {
-    height: 70%;
-  }
 }

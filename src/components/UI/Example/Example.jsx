@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Example.module.css";
 
-export const Example = (props) => {
+export const Example = ({ data }) => {
   const [position, setPosition] = useState("0% 0%");
 
   const handleMouseMove = (e) => {
@@ -17,23 +17,23 @@ export const Example = (props) => {
       <figure
         onMouseMove={handleMouseMove}
         style={{
-          backgroundImage: `url(${props.img})`,
+          backgroundImage: `url(${data.img})`,
           backgroundPosition: position,
         }}
       >
-        <img src={props.img} alt={props.name} />
+        <img src={data.img} alt={data.name} />
       </figure>
       <div className={styles.text}>
         <div className={styles.parth}>
-          <h3>{props.name}</h3>
-          <p className={styles.description}>{props.description}</p>
+          <h3>{data.name}</h3>
+          <p className={styles.description}>{data.description}</p>
         </div>
         <div className={styles.parth}>
           <h4>Стек технологий:</h4>
-          <p>{props.stack}</p>
+          <p>{data.stack}</p>
           <div className={styles.buttons}>
-            <a href={props.deploy}>Открыть деплой</a>
-            <a href={props.source}>Открыть исходники</a>
+            <a href={data.deploy}>Посмотреть</a>
+            <a href={data.source}>Исходный код</a>
           </div>
         </div>
       </div>
