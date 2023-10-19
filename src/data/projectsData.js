@@ -2,8 +2,8 @@ export const data = [
   {
     name: "Сайт для поиска книг",
     img: "/images/search-for-books.png",
-    description: ` React-приложение поиска книг с помощью Google Books API. 
-    Поиск осуществляется по названию или его части, также доступны фильтры и сортировка. Книги загружаются по 30 штук и подгружаются при нажатии на кнопку в конце списка.
+    description: `React-приложение поиска книг с помощью Google Books API. 
+    Поиск осуществляется по названию книги или его части, также доступны фильтры и сортировка. Книги загружаются по 30 штук и подгружаются при нажатии на кнопку в конце списка.
     При нажатии на карточку происходит переход на страницу с более подробным описанием. Приложение адаптировано под мобильные устройства.`,
     stack: "HTML, CSS, JavaScript, React, React Router, MobX, Google Books API",
     deploy: "https://alex8157.github.io/book-search-app/",
@@ -17,6 +17,15 @@ export const data = [
     stack: "HTML, CSS-modules, JavaScript, React, Redux",
     deploy: "https://alex8157.github.io/calculator-constructor/",
     source: "https://github.com/Alex8157/calculator-constructor",
+  },
+  {
+    name: "Сайт с рецептами",
+    img: "/images/cookbook.png",
+    description: `Сайт с рецептами различных блюд, разделенных по категориям. 
+    Все данные загружаются с сервера. С помощью React Router происходит навигация по страницам.`,
+    stack: "HTML, CSS-modules, TypeScript, React, React Router",
+    deploy: "https://alex8157.github.io/cookbook/",
+    source: "https://github.com/Alex8157/cookbook",
   },
   {
     name: "Сайт с карточками товаров",

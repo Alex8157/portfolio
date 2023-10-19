@@ -5,7 +5,7 @@ export const AboutMe = () => {
     <div className={styles.aboutMe}>
       <div className={styles.center}>
         <h2>- Алексей Пайхаев -</h2>
-        <p>Web Developer / Frondend</p>
+        <p>Web Developer / Frontend</p>
         <div className={styles.contacs}>
           <a href="https://github.com/Alex8157">
             <img

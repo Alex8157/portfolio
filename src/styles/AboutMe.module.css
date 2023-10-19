@@ -6,6 +6,7 @@
   width: 100%;
   height: 100vh;
   background: rgb(0, 0, 0, 0.4) url("/src/img/background.jpg") no-repeat;
+  /* background: rgb(0, 0, 0, 0.4) url("https://raw.githubusercontent.com/Alex8157/portfolio/gh-pages/static/media/background.9fc7dba9dfabcca7be81.jpg") no-repeat; */
   background-blend-mode: overlay;
   background-size: cover;
   font-size: 22px;
